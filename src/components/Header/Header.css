@@ -1,0 +1,28 @@
+header{
+    background-color: orange;
+    color: #fff;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 40px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: inherit;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-nav ul li{
+    margin-left: 10px;
+}
